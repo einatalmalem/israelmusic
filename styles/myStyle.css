@@ -1,0 +1,522 @@
+﻿
+@font-face {
+    font-family: 'Heebo';
+    src: url('../Heebo/Heebo-Regular.ttf') format('truetype');
+    src: url('../Heebo/heebo-regular-webfont.woff') format('woff');
+    src: url('../Heebo/heebo-regular-webfont.woff2') format('woff2');
+}
+
+body {
+    font-family: Heebo !important;
+    direction: rtl;
+    background-image: url('../image/BGimg.jpg');
+    background-size: cover;
+    /*width: 1280px;*/
+    margin: auto 0;
+}
+/*תפריט נ יווט*/
+#sidenav {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#sidenav ul li {
+        width: 120px;
+        display:block;
+       
+    }
+#sidenav ul li a {
+        height: 100%;
+        display: block;
+        color:rgb(1, 176, 192);
+        text-align: center;
+        text-decoration: none;
+        width: 120px;
+        padding-top: 20px ;
+    }
+#sidenav ul li ul {
+        display: none;
+        position: absolute;
+        padding-right: 90px;
+        margin-right:20px;
+        margin-top: -30px;
+    }
+#sidenav ul li:hover ul {
+    display: block;
+    width: 150px;
+}
+#sidenav .disabled
+{
+    cursor:not-allowed;
+    color:gray;
+   
+}
+#sidenav .active {
+        color: white;
+        font-weight: bold;
+    }
+
+/*פוטר*/
+#footer {
+    display: inline-block;
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:50px;
+    background-color: black;
+  
+}
+#footer .active {
+        color: white;
+        font-weight: bold;
+    }
+#glglz{
+    height:37px;
+    width:73px;
+    float:right;
+    margin-left:10px;
+    margin-top:5px;
+}
+#glz {
+    height: 37px;
+    width: 37px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#one {
+    height: 37px;
+    width:60px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#nine {
+    height: 37px;
+    width: 37px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#ninone {
+    height: 37px;
+    width: 37px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#odot {
+    height: 37px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: rgb(1, 176, 192);
+
+}
+#odot:hover{
+    color:white;
+    }
+#map:hover {
+        color: white;
+    }
+#map {
+    height: 37px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: rgb(1, 176, 192);
+
+}
+
+
+
+#C {
+    float: right;
+    margin-top: 10px;
+    margin-right: 350px;
+    color: white;
+    
+}
+
+/*פירורי לחם*/
+#bread{
+position:absolute;
+    margin-top:-30px;
+    margin-right:230px;
+    
+}
+.breadcrumbh {
+    height: 22px;
+    margin-top: 30px;
+}
+ul.breadcrumbh {
+    height: 29px;
+    padding: 0px 16px;
+    list-style: none;
+
+}
+
+ul.breadcrumbh li {
+        display: inline-block;
+        margin-top: -11px;
+    }
+ ul.breadcrumbh li + li:before {
+            padding: 8px;
+            color: black;
+            content: ' \003E';
+        }
+#bread ul.breadcrumbh li a {
+    color: rgb(1, 176, 192);
+}
+
+#bread ul.breadcrumbh li a:hover, ul.breadcrumbh li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+
+/*//דף בית//*/
+#mu {
+    color: rgb(1, 176, 192);
+    font-weight: bold;
+    font-size: 150px;
+    margin-right: 730px;
+ 
+}
+#is {
+    margin-top: -60px;
+    margin-right: 730px;
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+
+}
+
+#allyou {
+    transform: rotate(-90deg);
+    color: white;
+    float: right;
+    margin-right: 600px;
+    margin-top: -170px;
+    font-size: 24px;
+}
+#headp {
+    float: right;
+    margin-right: 300px;
+    margin-top: -400px;
+}
+#headp:hover {
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+/*עמוד ים תיכוני*/
+#mainpage {
+    background-color: rgb(191, 191, 191);
+    color: white;
+    height:600px;
+    width: 1200px;
+    margin-right: 240px;
+    margin-top: -200px;
+}
+#mu1 {
+    color: rgb(1, 176, 192);
+    font-weight: bold;
+    font-size: 90px;
+    margin-right:100px;
+ 
+}
+#is1 {
+    margin-top: -30px;
+    margin-right: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+}
+#allyou1 {
+    transform: rotate(-90deg);
+    color: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: -110px;
+    font-size: 16px;
+}
+#pM{
+    color:black;
+    width:700px;
+    margin-right:110px;
+}
+#years {
+    color: black;
+    font-weight: bold;
+    margin-right:60px;
+    margin-top:80px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-row-gap: 10px;
+}
+.box{
+    text-align:center;
+}
+.box:hover {
+        color: rgb(1, 176, 192);
+        font-weight: bold;
+    }
+.yearsp {
+        width: 150px;
+        height: 150px;
+    }
+
+/*עמוד ים תיכוני שנות ה60*/
+#bgsmall {
+    background-color: rgb(34, 42, 53);
+    color: rgb(1, 176, 192);
+    height: 546px;
+    width: 1000px;
+   position:absolute;
+   margin-top:30px;
+    margin-right:100px;
+}
+#allyou2 {
+    transform: rotate(-90deg);
+    color: white;
+    float: right;
+    margin-top: -120px;
+    font-size: 36px;
+}
+#pM60 {
+    width: 500px;
+    margin-right: 110px;
+}
+#youtubeV {
+    float: left;
+    margin-top: -370px;
+    margin-left: 50px;
+}
+#years60 {
+    color: black;
+    font-weight: bold;
+    margin-right: 60px;
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.box {
+    text-align: center;
+}
+.box:hover {
+        color: rgb(1, 176, 192);
+        font-weight: bold;
+    }
+.yearsp60 {
+    width: 80px;
+    height: 80px;
+}
+
+/*אודות*/
+#who {
+    color: black;
+    margin-right: 110px;
+    font-weight: bold;
+}
+#dev {
+    color: black;
+    margin-right: 110px;
+    font-weight: bold;
+}
+.dot {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(1, 176, 192);
+    border-color:white;
+    border-style:solid;
+    border-radius: 50%;
+    float:left;
+    margin-top:-300px;
+    margin-left:100px;
+}
+#otodL {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    margin-top: -260px;
+    margin-left: 170px;
+ 
+}
+
+#screens {
+    color: black;
+    font-weight: bold;
+    font-size:16px;
+  
+}
+
+.whitelink {
+    color: white;
+}
+/*מפת האתר*/
+#ulright {
+    list-style: none;
+    margin-right: 100px;
+}
+#ulright ul  {
+    padding-bottom:8px;
+}
+#ulleft ul {
+        padding-bottom: 8px;
+    }
+#ulleft {
+    list-style: none;
+    margin-right: 400px;
+    margin-top: -375px;
+}
+
+    #ulleft .disabled {
+        cursor: not-allowed;
+        color: gray;
+    }
+
+#ulright .disabled {
+    cursor: not-allowed;
+    color: gray;
+}
+
+/*צרו קשר*/
+#maginpageC {
+    color: white;
+    height: 600px;
+    width: 1000px;
+    margin-right: 200px;
+    margin-top: -180px;
+}
+#kep {
+    color: rgb(1, 176, 192);
+    font-weight: bold;
+    font-size: 90px;
+    margin-right: 630px;
+
+}
+#in {
+    margin-right: 630px;
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+    margin-top: -30px;
+}
+#th {
+    transform: rotate(-90deg);
+    color: white;
+    float: right;
+    margin-right: 550px;
+    margin-top:-116px;
+    font-size: 16px;
+}
+#mail {
+    margin-top: -70px;
+    margin-right: 170px;
+}
+#coForm {
+    z-index: 1;
+    height: 400px;
+    width: 370px;
+    margin-right: 610px;
+    margin-top: -260px;
+}
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.icon {
+    padding: 10px;
+    background: rgb(1, 176, 192);
+    color: white;
+    min-width: 60px;
+    text-align: center;
+}
+.input-field {
+    width: 60%;
+    padding: 10px;
+    outline: none;
+}
+.input-field:focus {
+        border: 2px solid dodgerblue;
+    }
+#subject{
+    width: 73%;
+    height:60px;
+}
+.btn {
+  margin-right: 100px;
+    background-color: white;
+    color: rgb(1, 176, 192);
+    cursor: pointer;
+    width: 80px;
+   
+}
+.btn:hover {
+        background-color: rgb(1, 176, 192);
+        color: white;
+    }
+
+
+/*אנימצית תמונות*/
+
+#slider {
+    overflow: hidden;
+
+}
+#slider figure{
+    position:relative;
+    width: 150%;
+    margin-right:-300px;
+    animation: 10s slider infinite;
+}
+
+#slider figure img{
+    padding: 10px;
+    width:11%;
+    float:left;
+}
+
+@keyframes slider{
+    0%{
+        left:0;
+    }
+
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
